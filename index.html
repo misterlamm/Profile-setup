@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="outer">
+    <section>
+      <form>
+        <h1> Sign Up </h1>
+        <fieldset class ="account-type">
+         <input type="radio" name="accounttype" value="admin">
+         <label for="admin">admin</label>
+         <input type="radio" name="accounttype" value="personal" checked required>
+         <label for="accounttype">personal</label>
+         <input type="radio" name="accounttype" value="guest">
+         <label for="guest">guest</label>
+        </fieldset>
+        <fieldset class="input-forms">
+         <div class="top">
+          <p> name </p>
+          <input type="form" name="info">
+          <p> password </p>
+          <input type="form" name="info">
+         </div>
+         <div class="bottom">
+          <p> email address </p>
+          <input type="form" name="info">
+          <p> confirm password </p>
+          <input type="form" name="info">
+         </div>
+        </fieldset>
+        <fieldset class="profile-pic">
+         <label for="profilepic">profile picture</label>
+         <input type="file" id="profilepic">
+
+        </fieldset>
+       <div class="button">
+        <input type="submit" value="sign up">
+       </div>
+      </form>
+
+    </section>
+  </div>
+</body>
+</html>
